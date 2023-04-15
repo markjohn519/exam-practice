@@ -1,5 +1,3 @@
-# jsand-practice-exercises
-
 ## Instructions
 
 - Every `task-#.#` folder will contain an exercise
