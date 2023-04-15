@@ -1,0 +1,1 @@
+Write a code in the `answer.js` that read the directory of the current executing file. (without using filter), make a list of all the absolute file on that directory and write it in the `output.txt` in JSON array

@@ -1,0 +1,1 @@
+In the answer.js determine the platform of the operating system where it was running. If running on mac terminate with exit code 1. If running on windows terminate with exit code 2. If running on linux terminate with exit code 3.

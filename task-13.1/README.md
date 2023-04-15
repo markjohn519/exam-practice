@@ -1,0 +1,1 @@
+Write a function called answer that takes one parameter called input. Within the function, wrap the statement decodeURI(input) in a try-catch block.

@@ -1,0 +1,1 @@
+Run npm install, and import the installed dependency on the package.json. In the file `answer.js` log out the module's absolute path of the module

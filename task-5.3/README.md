@@ -1,0 +1,3 @@
+In `answer.js` ...
+
+create an answer object that has read and write methods. The prototype of the answer object has a method sing and dance. And the prototype of the prototype of the answer object has crawl and walk methods

@@ -1,0 +1,1 @@
+Write a function that takes a command as a parameter and uses the exec method to execute the command. The exec method should be called with the command parameter and an options object that sets the current working directory
