@@ -1,6 +1,6 @@
 const { once } = require('node:events')
 
-function answer() {
+async function answer() {
   const ac = new AbortController()
   const { signal } = ac
 

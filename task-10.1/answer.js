@@ -1,5 +1,28 @@
-const { readFileSync } = require('node:fs')
+const {readFile} = require('node:fs')
 
-const read = (filename, callback) => {
-    const content = readFileSync(filename, { encoding: 'utf8' })
+function read(filename, cb) {
+    readFile(filename, cb)
+}
+function answer(fileA, fileB, fileC) {
+    read(fileA, (err, content) => {
+        if(err) {
+            console.error(err)
+            return
+        }
+        console.log(content)
+    })   
+    read(fileB, (err, content) => {
+        if(err) {
+            console.error(err)
+            return
+        }
+        console.log(content)
+    })   
+    read(fileC, (err, content) => {
+        if(err) {
+            console.error(err)
+            return
+        }
+        console.log(content)
+    })   
 }

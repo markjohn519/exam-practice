@@ -1,9 +1,3 @@
-const EventEmitter = require('events')
-
-const emitter = new EventEmitter()
-
 function answer(ee) {
-
+    ee.once('data', ()=>{})
 }
-
-emitter.emit('event')

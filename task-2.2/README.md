@@ -1,1 +1,0 @@
-complete the answer function that accepts three arguments of files of filenames and reading all the files using read function and writing to the file `output.txt` using write function

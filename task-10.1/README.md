@@ -1,4 +1,3 @@
-In `answer.js` modify the read function so that 
-- if `readFileSync()` is successful, you pass the content to the callback
-- if `readFileSync()` is not successful, you pass the error to the callback
-- the signature of the callback function is `callback(error, content)`
+- use the read function() to read the threefile names(file1,file2,file3)
+- if there's an error console.error
+- success console.log(content)
