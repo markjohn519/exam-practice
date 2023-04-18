@@ -1,6 +1,3 @@
-function add(a, b) {
-    debugger
-    return a + b
+function answer() {
 }
 
-console.log(add(1,2))
