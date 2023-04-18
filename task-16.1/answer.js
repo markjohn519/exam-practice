@@ -7,5 +7,5 @@ function add (a, b ) {
   }
 
 assert.strictEqual(add(1,2),3)
-assert.throws(() => add( 7, '2'))
+assert.throws(() => add( 7, '2'), Error)
 assert.notStrictEqual(typeof add(1,2), 'string')

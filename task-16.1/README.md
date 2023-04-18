@@ -2,3 +2,5 @@ Inside the add.js create a function that accepts two number type parameter which
 - passed outcome
 - function where it will throw an error
 - check the type of the return
+
+
