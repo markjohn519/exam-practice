@@ -10,7 +10,10 @@ function write(filename, content) {
 }
 
 async function answer(filenames) {
-  
+  let content = ''
+  for (const file of filenames) {
+    content += await read(file)
+  }
+
+  await write('output.txt', content)
 }
-
-
