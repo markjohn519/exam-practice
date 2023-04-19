@@ -1,4 +1,3 @@
 function answer(){
-    return ArrayBuffer.alloc(256)
+    return Buffer.alloc(256)
 }
-
