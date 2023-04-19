@@ -1,4 +1,5 @@
 const { once } = require('node:events')
+const Unrealadable = require('./unrealadable')
 
 async function answer() {
   const unrealadable = new Unrealadable()
