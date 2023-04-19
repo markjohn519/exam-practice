@@ -1,3 +1,4 @@
 function answer(){
-    return null
+    return Buffer.alloc(256)
 }
+

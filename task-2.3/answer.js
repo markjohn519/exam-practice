@@ -1,9 +1,14 @@
 const { once } = require('node:events')
 
 async function answer() {
-  const unrealadable = new Unrealadable()
+  // const unrealadable = new Unrealadable()
+  let ac = new AbortController()
+  let { signal } = ac
+  setTimeout(()=> {
+    ac.abort()
+  }, 500)
 
-  await once(unrealadable, 'ping')
+  await once(param1, 'ping', {signal})
 }
 
 answer()
