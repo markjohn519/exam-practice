@@ -15,5 +15,5 @@ async function answer(filenames) {
     content += await read(file)
   }
 
-  await write('output.txt', content)
+  await write('./output.txt', content)
 }
