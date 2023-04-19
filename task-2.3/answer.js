@@ -1,5 +1,4 @@
 const { once } = require('node:events')
-const Unrealadable = require('./unrealadable')
 
 async function answer() {
   const unrealadable = new Unrealadable()
@@ -7,7 +6,7 @@ async function answer() {
   const { signal } = ac
   setTimeout(()=> {
     ac.abort()
-  }, 1000)
+  }, 500)
 
   await once(unrealadable, 'ping', { signal })
 }
